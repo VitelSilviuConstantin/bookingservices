@@ -1,0 +1,5 @@
+cron:
+- description: "Hourly reminder job"
+  url: /bookingservices/remind/
+  target:
+  schedule: every 1 mins
